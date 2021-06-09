@@ -3,9 +3,11 @@
 }
 
 .product-container{
-    padding: 2%;
     width: 70%;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 5px;
     border-right: 1px solid lightgray;
 }
+/* .cart-container{
+    margin-left: 5px;
+} */

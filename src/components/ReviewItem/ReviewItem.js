@@ -11,7 +11,7 @@ const ReviewItem = (props) => {
         marginLeft:'200px'
     };
     return (
-        <div style={reviewItemStyle} className="review-item">
+        <div >
             <img src={img} alt="" />
             <h4 className="product-name">{name}</h4>
             <p>Quantity: {quantity}</p>

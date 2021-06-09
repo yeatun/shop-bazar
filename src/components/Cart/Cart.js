@@ -32,7 +32,7 @@ const formatNumber = num => {
     return Number(precision);
 }
     return (
-        <div >
+        <div className='cart'>
             <h4 className='summary'>Order Summary</h4>
             <p>Items Ordered:$ <b>{cart.length}</b></p>
             <p>Product Price:$ <b>{formatNumber(totalPrice)}</b></p>
