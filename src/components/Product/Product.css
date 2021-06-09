@@ -1,0 +1,21 @@
+.single-product-container{
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.product-name{
+    color: rgb(77, 134, 224);
+    font-weight: 400;
+}
+.single-product-container:hover{
+background-color: rgb(224, 235, 245);
+}
+button{
+    background-color: rgb(32, 190, 218);
+    width: 180px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-weight: 700;
+}
